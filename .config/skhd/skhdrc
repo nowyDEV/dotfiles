@@ -1,0 +1,31 @@
+cmd - h [
+  "alacritty" : tmux select-pane -L
+]
+
+cmd - j [
+  "alacritty" : tmux select-pane -D
+]
+
+cmd - k [
+  "alacritty" : tmux select-pane -U
+]
+
+cmd - l [
+  "alacritty" : tmux select-pane -R
+]
+
+cmd + lshift - h [
+  "alacritty" : tmux resize-pane -L 10
+]
+
+cmd + lshift - l [
+  "alacritty" : tmux resize-pane -R 10
+]
+
+cmd + lshift - j [
+  "alacritty" : tmux resize-pane -U 10
+]
+
+cmd + lshift - k [
+  "alacritty" : tmux resize-pane -D 10
+]
